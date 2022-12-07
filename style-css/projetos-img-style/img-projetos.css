@@ -1,19 +1,19 @@
 /*-------Aqui é onde linka as imagens dos projetos--------*/
 
 #imagem1{
-    background-image: url(./imgs/pagina-de-login.jpg);
+    background-image: url(./imgs/projetos-img/pagina-de-login.jpg);
   }
   
   #imagem2{
-    background-image: url(./imgs/calculadora.jpg);
+    background-image: url(./imgs/projetos-img/calculadora.jpg);
   }
   
   #imagem3{
-    background-image: url(./imgs/pagina-dinamica.jpg);
+    background-image: url(./imgs/projetos-img/pagina-dinamica.jpg);
   }
   
   #imagem4{
-    background-image: url(./imgs/jogo-de-plataforma.jpg);
+    background-image: url(./imgs/projetos-img/jogo-de-plataforma.jpg);
   }
   
   #imagem5{
