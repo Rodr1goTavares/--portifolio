@@ -1,6 +1,6 @@
 /*---Import do arquivo .css das imagens dos projetos---*/
-@import url(/style-css/anim/animations.css);
-@import url(/style-css/projetos-img-style/img-projetos.css);
+@import url(Rodr1goTavares/pagina-portifolio/style-css/anim/animations.css);
+@import url(Rodr1goTavares/pagina-portifolio/style-css/projetos-img-style/img-projetos.css);
 
 *{
     margin: 0;
