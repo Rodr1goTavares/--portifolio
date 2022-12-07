@@ -1,7 +1,7 @@
 /*-------Aqui é onde linka as imagens dos projetos--------*/
 
 #imagem1{
-    background-image: url(/imgs/pagina-de-login.jpg);
+    background-image: url(./imgs/pagina-de-login.jpg);
   }
   
   #imagem2{
