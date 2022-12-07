@@ -1,0 +1,22 @@
+/*### AQUI FICARÁ TODAS AS ANIMAÇÕES DO SITE ###*/
+
+
+/*Animações dos blocos de projetos*/
+.item-container:hover{
+    
+    transform: translateY(-20px);
+    box-shadow: 5px 5px 30px rgb(0, 0, 0);
+  }
+
+/*Animação dos links (Usados nos botões dos projetos)*/
+  a:hover{
+
+    opacity: 0.4;
+    transition: 550ms;
+  }
+
+
+/*animações dos links (nav e footer)*/
+  .links:hover{
+    color: rgb(241, 241, 241);
+  }

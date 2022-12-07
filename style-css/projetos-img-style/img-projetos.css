@@ -1,0 +1,33 @@
+/*--------Aqui é onde linka as imagens dos projetos---------*/
+
+#imagem1{
+    background-image: url(/imgs/img-projetos/pagina-de-login.jpg);
+  }
+  
+  #imagem2{
+    background-image: url(/imgs/img-projetos/calculadora.jpg);
+  }
+  
+  #imagem3{
+    background-image: url(/imgs/img-projetos/pagina-dinamica.jpg);
+  }
+  
+  #imagem4{
+    background-image: url(/imgs/img-projetos/jogo-de-plataforma.jpg);
+  }
+  
+  #imagem5{
+    background-image: url();
+  }
+  
+  #imagem6{
+    background-image: url();
+  }
+  
+  #imagem7{
+    background-image: url();
+  }
+  
+  #imagem8{
+    background-image: url();
+  }

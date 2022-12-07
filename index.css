@@ -1,0 +1,411 @@
+/*---Import do arquivo .css das imagens dos projetos---*/
+@import url(/style-css/anim/animations.css);
+@import url(/style-css/projetos-img-style/img-projetos.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    color: rgb(241, 241, 241);
+  }
+
+html{
+  background: url(/imgs/background/background1.jpg) repeat;
+  background-size: cover;
+
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-weight: 300px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.links{
+  transition-duration: 500ms;
+}
+
+
+header{
+
+  background-color: rgba(0, 0, 0, 0.24);
+
+  height: 60px;
+  width: 100%;
+}
+
+
+nav{
+ 
+  background-color: rgba(0, 0, 0, 0.692);
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, Helvetica, sans-serif;
+  
+  width: 100%;
+  gap: 30%;
+
+  position: fixed;
+  z-index: 2;
+
+  backdrop-filter: blur(10px);
+}
+
+
+.logo {
+
+  font-size: 20px;
+  font-family:Monospace;
+  letter-spacing: 2px;
+}
+
+
+ul li{ 
+  
+  letter-spacing: 3px;
+  margin-left: 10px;
+
+
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+
+h1 {
+  background-color: rgba(78, 31, 121, 0);
+  font-family:Monospace;
+}
+
+
+h2{
+  font-size: 25px;
+  padding-bottom: 8%;
+
+  color: rgb(255, 255, 255);
+
+  background-color: rgba(107, 11, 196, 0);
+  text-shadow: 5px 5px 10px black;
+
+  font-family:Monospace;
+}
+
+
+p{
+  color: white;
+
+  font-size: 18px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+
+  background-color: rgba(14, 114, 1, 0);
+  text-shadow: 5px 5px 10px black;
+
+  padding: 0%;
+  width: 60%;
+}
+
+
+main{
+
+  
+  background-color: rgba(137, 43, 226, 0);
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*### Inicio ###*/
+#inicio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  padding: 1%;
+
+  margin: 8% auto;
+
+  padding-bottom: 0%;
+
+  width: cover;
+  height: 250px;
+
+  text-align: center;
+  background-color: rgba(54, 105, 105, 0);
+  backdrop-filter: blur(0px);
+
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 30px;
+
+  align-items: center;
+
+  text-shadow: 7px 7px 30px black;
+}
+
+
+#inicio-h1{
+  background-color: rgba(0, 255, 255, 0);
+  font-size: 25px;
+}
+
+
+/*### Sobre ###*/
+#sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0%;
+  padding: 1%;
+
+  width: cover;
+
+  margin-bottom: 0%;
+  margin: 1% auto;
+
+
+  background-color: rgba(0, 0, 0, 0.781);
+  backdrop-filter: blur(3px);
+
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 0px;
+
+  box-shadow: 7px 7px 40px rgba(184, 184, 184, 0);
+
+  align-items: center;
+  text-align: center;
+}
+
+
+#sobre-h1 {
+  
+  padding-bottom: 1%;
+  background-color: rgba(78, 31, 121, 0);
+}
+
+
+#sobre-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  gap: 20%;
+
+  align-items: center;
+  text-align: center;
+
+  background-color: rgba(137, 43, 226, 0);
+}
+
+
+
+#p-sobre{
+
+  background-color: rgba(127, 255, 212, 0);
+
+  padding: 0%;
+  width: 60%;
+}
+
+
+#linguagens{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3%;
+
+  margin: 4% auto;
+
+  background-color: rgba(163, 255, 127, 0);
+}
+
+
+/*### Projetos ###*/
+
+/*--Elemento pai que recebe o container dos projetos--*/
+#portifolio{
+  display: flex;
+  flex-direction: column;
+  
+  margin: 10% auto;
+  padding: 0%;
+  gap: 100px;
+
+  background-color: rgba(132, 185, 122, 0)
+}
+
+
+
+/*--Container onde ficam os projetos--*/
+#projetos-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: auto;
+  
+  gap: 100px;
+
+  width: 100%;
+  
+  background-color: rgba(187, 187, 187, 0);
+}
+
+
+/*--São os blocos de cada projeto--*/
+.item-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: rgba(0, 0, 0, 0.863);
+
+  height: 250px;
+  width: 310px;
+
+  border:solid 3px rgba(0, 0, 0, 0.733);
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px black;
+  backdrop-filter: blur(20px);
+
+  text-shadow: 5px 5px 10px black;
+  color: rgba(240, 248, 255, 0.705);
+
+  transition: 1s;
+}
+
+
+.bt-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+  gap: 3%;
+}
+
+
+#view, #to-github{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 3%;
+
+  height: 30px;
+  width: 140px;
+
+  border: solid 3px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+
+  box-shadow: 3px 3px 5px black;
+
+  text-align: center;
+  font-size: large;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+
+  text-shadow: 10px;
+
+  color: rgb(156, 156, 156);
+  background-color: rgb(22, 22, 22);
+}
+
+
+#view{
+  text-align: center;
+}
+
+#to-github{
+  text-align: center;
+}
+
+
+.imagem{
+  background-color: rgba(97, 97, 97, 0.966);
+  background-size: cover;
+
+  height: 70%;
+  width: 300px;
+
+  border-radius: 5px;
+
+  padding-top: 1%;
+  margin-top: 0%;
+
+  backdrop-filter: blur(20px);
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: auto;
+  padding: 10px;
+
+  flex-wrap: wrap-reverse;
+  gap: 35%;
+
+  background-color: rgba(0, 0, 0, 0.692);
+  border: solid 2px rgb(0, 0, 0);
+
+  font-family: system-ui, -apple-system, Helvetica, Arial, Helvetica, sans-serif;
+  
+  text-align: center;
+}
+
+
+#creditos{
+  font-style: italic;
+  font-size: 18px;
+  opacity: 0.3;
+  
+  background-color: rgba(0, 165, 165, 0);
+}
+
+
+/*### Barra de rolagem ###*/
+body::-webkit-scrollbar {
+  width: 12px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.89);        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(77, 77, 77);    
+  border-radius: 20px;      
+  border: 3px solid rgb(20, 20, 20);  
+}
+
+
